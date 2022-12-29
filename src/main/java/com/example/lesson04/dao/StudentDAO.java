@@ -9,4 +9,6 @@ public interface StudentDAO {
 	
 	public void insertStudent(Student student);
 	
+	public Student selectStudentById(int id);
+	
 }
